@@ -1,0 +1,14 @@
+name: AntiCreeperGrief
+version: '1.0'
+main: dev.nikipro50.antiCreeperGrief.AntiCreeperGrief
+Description: Keep the creeper from harming the world!
+api-version: '1.21'
+load: STARTUP
+authors: [ nikipro50 ]
+commands:
+  anticreepergrief:
+    aliases:
+      - acg
+permissions:
+  anticreepergrief.admin:
+    default: op
